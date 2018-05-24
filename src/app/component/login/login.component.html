@@ -1,0 +1,13 @@
+<div id="login-component">
+  <h4>Sign In</h4>
+
+    <label>Username:
+      <input [(ngModel)]="credentials.username" placeholder="username">
+    </label>
+    <label>Password:
+      <input [(ngModel)]="credentials.password" placeholder="username">
+    </label>  
+	<button (click)="login()">
+    Login
+  	</button>  
+</div>
